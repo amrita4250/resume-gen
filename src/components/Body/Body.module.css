@@ -1,0 +1,76 @@
+.container {
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    padding-top: 10px;
+    background: linear-gradient(to left, #cdb4d4 30%, #afacbd 70%);
+
+  }
+  
+  .heading {
+    font-weight: 500;
+    font-size: 2.1rem;
+    text-decoration: underline;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+   
+  }
+  
+  .toolbar {
+    width: 100%;
+    display: flex;
+    gap: 40px;
+    justify-content: space-between;
+    align-items: center;
+   
+  }
+  
+  .colors {
+    display: flex;
+    gap: 20px;
+    padding: 0 30px;
+    
+  }
+  
+  .colors .color {
+    height: 36px;
+    width: 36px;
+    border-radius: 50%;
+    background-color: #0a6397;
+  }
+  .colors .active {
+    border: 2px solid #000000;
+  }
+  
+  .toolbar button {
+    padding: 8px 16px;
+    border-radius: 5px;
+    background-color: #08812c;
+    color: #000000;
+    outline: none;
+    border: none;
+    font-weight: 500;
+    font-size: 1rem;
+    letter-spacing: 1px;
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    cursor: pointer;
+  }
+  
+  .toolbar button svg {
+    height: 20px;
+    width: 20px;
+  }
+  
+  .main {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 100%;
+    color: rgb(0, 0, 0);
+    
+  }
+  
+  
